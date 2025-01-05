@@ -40,6 +40,7 @@ a {
 a:hover {
     color: #ffffff;
     background-color: #5aa05c;
+    border-radius: 50px;
     padding: 4px;
     /* padding when hovering for emphasis */
 }
