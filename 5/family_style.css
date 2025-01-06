@@ -1,0 +1,29 @@
+div {
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"] {
+    color: antiquewhite;
+    background-color: rgb(211, 163, 105);
+    border-radius: 50px;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid;
+    border-color: rgb(54, 42, 27);
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 25%;
+}
+
+textarea {
+    width: 30%;
+}
