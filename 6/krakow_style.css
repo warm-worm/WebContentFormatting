@@ -1,0 +1,49 @@
+thead {
+    background-color: rgb(12, 85, 12);
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px;
+    border-style: dotted
+}
+
+colgroup col:nth-child(1) {
+    width: 25%;
+}
+
+colgroup col:nth-child(4) {
+    width: 40%;
+}
+
+th,
+td {
+    color: rgb(6, 12, 7);
+
+}
+
+tr:hover {
+    background-color: rgb(197, 230, 170);
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 0.8rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    /* scrollable on small screens */
+    .table-container {
+        overflow-x: auto;
+        display: block;
+    }
+}
